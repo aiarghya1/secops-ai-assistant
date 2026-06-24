@@ -1,0 +1,19 @@
+{
+  "sid": "scheduler_admin_search_W2_at_14232356_132",
+  "search_name": "Multiple Failed Logins - Potential Brute Force",
+  "owner": "admin",
+  "app": "search",
+  "trigger_time": "2026-06-24T10:15:32.145Z",
+  "result": {
+    "sourcetype": "linux_secure",
+    "count": "8",
+    "src_ip": "185.220.101.34",
+    "user": "admin_user",
+    "host": "WS-FINANCE-042",
+    "action": "failure",
+    "app": "sshd",
+    "severity": "high",
+    "description": "8 failed SSH login attempts for admin_user within 5 minutes"
+  },
+  "results_link": "http://splunk.internal:8000/app/search/@go?sid=scheduler_admin_search_W2..."
+}

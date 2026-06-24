@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-06-24T11:20:05.888123+0000",
+  "flow_id": 998877665544,
+  "event_type": "alert",
+  "src_ip": "203.0.113.50",
+  "src_port": 443,
+  "dest_ip": "192.168.1.105",
+  "dest_port": 50123,
+  "proto": "TCP",
+  "alert": {
+    "signature_id": 2024101,
+    "signature": "ET INFO Large Data Transfer to Suspicious TLD",
+    "category": "Attempted Information Leak",
+    "severity": 2
+  },
+  "tls": {
+    "subject": "CN=data-drop.io",
+    "issuerdn": "CN=Let's Encrypt Authority X3, O=Let's Encrypt, C=US",
+    "sni": "data-drop.io",
+    "version": "TLS 1.2"
+  },
+  "flow": {
+    "bytes_toserver": 150000000,
+    "bytes_toclient": 5400,
+    "state": "established"
+  }
+}

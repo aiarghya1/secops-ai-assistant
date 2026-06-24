@@ -1,0 +1,12 @@
+{
+  "uuid": "ph-123456789",
+  "title": "Email Gateway: Malicious Link Detected",
+  "level": "moderate",
+  "date": "2026-06-24T09:30:15Z",
+  "sender": "billing@suspicious-login.com",
+  "recipient": "jsmith@corp.local",
+  "subject": "URGENT: Your account will be suspended",
+  "url": "https://suspicious-login.com/login",
+  "action_taken": "delivered",
+  "reason": "URL reputation score increased post-delivery"
+}

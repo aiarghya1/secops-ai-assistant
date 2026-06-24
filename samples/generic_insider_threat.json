@@ -1,0 +1,14 @@
+{
+  "eventId": "it-99887766",
+  "alertName": "High Volume Database Query - Sensitive Tables",
+  "severity": "high",
+  "time": "2026-06-24T16:05:22Z",
+  "src_user": "jsmith",
+  "user_role": "Developer",
+  "src_ip": "192.168.1.50",
+  "dest_ip": "192.168.1.200",
+  "dest_port": 5432,
+  "details": "User jsmith executed query 'SELECT * FROM customers_pii LIMIT 1000000' against production database.",
+  "app": "postgresql",
+  "policy_violation": true
+}
